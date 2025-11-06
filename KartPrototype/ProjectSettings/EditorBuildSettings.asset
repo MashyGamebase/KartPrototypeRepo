@@ -4,5 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/KartPrototype/Scenes/DemoScene.unity
+    guid: 36113172ac32aad41b7f4b5276063002
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 6007b359603e35b40a07db0a4c1fb562,
+      type: 2}

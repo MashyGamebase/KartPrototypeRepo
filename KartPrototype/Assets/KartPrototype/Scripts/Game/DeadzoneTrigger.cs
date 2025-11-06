@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using PowerslideKartPhysics;
 
 public class DeadzoneTrigger : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class DeadzoneTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.TryGetComponent(out KartController obj))
+        if (other.TryGetComponent(out Kart obj))
         {
             obj.gameObject.transform.position = respawnPoint.position;
             obj.gameObject.transform.rotation = respawnPoint.rotation;
