@@ -1,5 +1,5 @@
 {
-    "name": "StandardControls",
+    "name": "StandardSecondaryControls",
     "maps": [
         {
             "name": "Kart",
@@ -85,12 +85,23 @@
                 },
                 {
                     "name": "",
-                    "id": "f8f0e473-d528-4ffa-9cba-e239e5b44229",
-                    "path": "<Keyboard>/w",
+                    "id": "4550b670-b1c3-490f-9d27-63cd15eafab5",
+                    "path": "<Keyboard>/upArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "Accel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0e825954-3de5-4e3c-bbfe-ce6fc9884754",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Brake",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -109,17 +120,6 @@
                     "name": "",
                     "id": "bd506b90-57bd-4e45-bc8d-f569cca1bed7",
                     "path": "<Gamepad>/buttonWest",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Brake",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "9170aa9c-a229-4adc-8c9d-3003977ed8db",
-                    "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -151,7 +151,7 @@
                 },
                 {
                     "name": "1D Axis",
-                    "id": "929230b7-0983-4c8c-9a94-094f9cfaccb9",
+                    "id": "659db06c-6289-49e7-af06-cf445b06c7d1",
                     "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
@@ -162,8 +162,8 @@
                 },
                 {
                     "name": "negative",
-                    "id": "3047a6b5-6299-4164-ba91-8f30a65f3c97",
-                    "path": "<Keyboard>/a",
+                    "id": "c088a57f-7da6-414c-a97f-da89c23b7e70",
+                    "path": "<Keyboard>/leftArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -173,8 +173,8 @@
                 },
                 {
                     "name": "positive",
-                    "id": "c97f8fa5-7b24-4637-a339-8d7e542b424d",
-                    "path": "<Keyboard>/d",
+                    "id": "7fc0bf5d-3fe4-4c6b-80c4-0bfb17e5769c",
+                    "path": "<Keyboard>/rightArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -196,7 +196,7 @@
                 {
                     "name": "",
                     "id": "dda46f5c-067c-43d2-a7de-0e84f060baa4",
-                    "path": "<Keyboard>/leftShift",
+                    "path": "<Keyboard>/rightShift",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -218,7 +218,7 @@
                 {
                     "name": "",
                     "id": "90a9ec0b-6c82-4087-b440-3deacd96e6d9",
-                    "path": "<Keyboard>/space",
+                    "path": "<Keyboard>/enter",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -229,7 +229,7 @@
                 {
                     "name": "",
                     "id": "6b3b4589-fe8d-4e46-9098-557883da306b",
-                    "path": "<Keyboard>/z",
+                    "path": "<Keyboard>/slash",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
