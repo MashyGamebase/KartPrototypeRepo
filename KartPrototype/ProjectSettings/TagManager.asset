@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Walls
+  - Kart
   layers:
   - Default
   - TransparentFX
@@ -18,8 +19,8 @@ TagManager:
   - Items
   - Walls
   - Kart Box Collider
-  - 
-  - 
+  - Kart Icon
+  - Track
   - 
   - 
   - 
